@@ -8,7 +8,7 @@ The dataset splits all data into 3 parts. Base statistical information is shown 
 
 | #Relation | #Entity | #Train (opened) | #Valid (opened) | #Test  |
 | :-------: | :-----: | :-------------: | :-------------: | :----: |
-|    500    | 269658  |     1242550     |     124255      | 124255 |
+|    500    | 269658  |     1242550     |     5000      | 5000 |
 
 ### Data
 
