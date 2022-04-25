@@ -61,4 +61,15 @@ raw_entity_name <tab> entity_label_ch <\n>
 ...
 ```
 
+### Baseline result
+
+We do some baseline method on this dataset. `TransE`, `DistMult` and `ComplEx` result are based on `OpenKE` toolkit, `KG-BERT` and `GenKGC` results are based our code.
+| Method   | Hits@1 | Hits@3 | Hits@10 |
+| -------- | ------ | ------ | ------- |
+| TransE   | 0.207  | 0.340  | 0.531   |
+| DistMult | 0.049  | 0.088  | 0.216   |
+| ComplEx  | 0.053  | 0.120  | 0.266   |
+| KG-BERT  | 0.023  | 0.049  | 0.241   |
+| GenKGC   | 0.203  | 0.280  | 0.351   |
+
 
