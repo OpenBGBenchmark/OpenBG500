@@ -70,6 +70,6 @@ We do some baseline method on this dataset. `TransE`, `DistMult` and `ComplEx` r
 | DistMult | 0.049  | 0.088  | 0.216   |
 | ComplEx  | 0.053  | 0.120  | 0.266   |
 | KG-BERT  | 0.023  | 0.049  | 0.241   |
-| GenKGC   | 0.203  | 0.280  | 0.351   |
+| [GenKGC](https://arxiv.org/abs/2202.02113)   | 0.203  | 0.280  | 0.351   |
 
 
