@@ -12,7 +12,7 @@ The dataset splits all data into 3 parts. Base statistical information is shown 
 
 ### Data
 
-OpenBG500 is available at [Google Drive](https://drive.google.com/drive/folders/1QgSL1wcLmA_eOQibwKxDaxVRGrMFqDMV?usp=sharing). The dataset offers two triplet formats for convenient evaluations and the main derectory of the dataset is as follows.
+OpenBG500 is available at [Google Drive](https://drive.google.com/drive/folders/1carN96-mvbYfW_X1Rt-eLCGjEYx3iOda?usp=sharing). The dataset offers two triplet formats for convenient evaluations and the main derectory of the dataset is as follows.
 
 ```
 .	              # Format 1: 
