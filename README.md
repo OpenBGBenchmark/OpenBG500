@@ -12,7 +12,9 @@ The dataset splits all data into 3 parts. Base statistical information is shown 
 
 ### Data
 
+
 OpenBG500 is available at [Google Drive](https://drive.google.com/file/d/1pD_icqV-lLbCXN2rfBaq-Y5i_XcKVCzM/view?usp=sharing) and [Baidu Netdisk(password: 78fw)](https://pan.baidu.com/s/1NsRWct-u63QmxVgyjJeXsg). The main derectory of the dataset is as follows.
+
 
 ```
 OpenBG500
