@@ -31,31 +31,31 @@ OpenBG500
 * Triples
 
 ```shell
-# {Dataset}_train.tsv/{Dataset}_dev.tsv
+# OpenBG500_train.tsv/OpenBG500_dev.tsv
 Head<\t>Relation<\t>Tail<\n>
 ```
 
 * Description of entities/relations in Chinese
 
 ```shell
-# {Dataset}_entity2text.tsv/{Dataset}_relation2text.tsv
+# OpenBG500_entity2text.tsv/OpenBG500_relation2text.tsv
 Entity(Relation)<\t>Description of entitie(relation)<\n>
 ```
 
 * Test and submit
 
 ```shell
-# For {Dataset}_test.tsv, participants are required to predict 10 Tails for one instance. {Dataset}_example_pred.tsv is a submit example.
+# For OpenBG500_test.tsv, participants are required to predict 10 Tails for one instance. OpenBG500_example_pred.tsv is a submit example.
 Head<\t>Relation<\n>
 
-# {Dataset}_example_pred.tsv
+# OpenBG500_example_pred.tsv
 Head<\t>Relation<\t>Tail 1<\t>Tail 2<\t>...<\t>Tail 10<\n>
 ```
 
 #### Check the data
 
 ```
-$ head -n 3 {Dataset}_train.tsv
+$ head -n 3 OpenBG500_train.tsv
 ent_135492      rel_0352        ent_015651
 ent_020765      rel_0448        ent_214183
 ent_106905      rel_0418        ent_121073
@@ -65,7 +65,7 @@ ent_106905      rel_0418        ent_121073
 
 1. Read the original data:
 ```python
-with open('{Dataset}_train.tsv', 'r') as fp:
+with open('OpenBG500_train.tsv', 'r') as fp:
     data = fp.readlines()
     train = [line.strip('\n').split('\t') for line in data]
     _ = [print(line) for line in train[:2]]
@@ -75,7 +75,7 @@ with open('{Dataset}_train.tsv', 'r') as fp:
 
 2. Get the map of Entity(Relatioin)-Description: `ent2text` and `rel2text`:
 ```python
-with open('{Dataset}_entity2text.tsv', 'r') as fp:
+with open('OpenBG500_entity2text.tsv', 'r') as fp:
     data = fp.readlines()
     lines = [line.strip('\n').split('\t') for line in data]
     _ = [print(line) for line in lines[:2]]
@@ -84,7 +84,7 @@ with open('{Dataset}_entity2text.tsv', 'r') as fp:
 
 ent2text = {line[0]: line[1] for line in lines}
 
-with open('{Dataset}_relation2text.tsv', 'r') as fp:
+with open('OpenBG500_relation2text.tsv', 'r') as fp:
     data = fp.readlines()
     lines = [line.strip().split('\t') for line in data]
     _ = [print(line) for line in lines[:2]]
