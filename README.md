@@ -102,6 +102,10 @@ _ = [print(line) for line in train[:2]]
 # ['精品三姐妹硬糕', '口味', '原味硬糕850克【10包40块糕】']
 ```
 
+## Submit in Alibaba TIANCHI
+
+[OpenBG Benchmark：Large Scale Open Business Knowledge Graph Benchmark](https://tianchi.aliyun.com/dataset/dataDetail?dataId=122271) is a benchmark open for a long time. Welcome to submit your result of OpenBG500.
+
 ### Baseline result
 
 We do some baseline method on this dataset. `TransE`, `DistMult` and `ComplEx` result are based on `OpenKE` toolkit, `KG-BERT` and `GenKGC` results are based our code.
